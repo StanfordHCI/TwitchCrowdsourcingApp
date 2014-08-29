@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listOfLocksForPrefs">
+        <item>Twitch Images</item>
+        <item>Twitch Census</item>
+        <item>Slide to Unlock</item>
+        <item>Text Extractions</item>
+        <item>Cognitive Load Study</item>
+    </string-array>
+    <string-array name="valueListOfLocksForPrefs">
+        <item>TwitchImages</item>
+        <item>TwitchCensus</item>
+        <item>TwitchSlideToUnlock</item>
+        <item>TwitchStructureTheWeb</item>
+        <item>TwitchCognitiveLoad</item>
+    </string-array>
+
+</resources>

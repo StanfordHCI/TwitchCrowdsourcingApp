@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twitch!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="slideToUnlockExplanation">
+	    Slide-to-unlock days occur once per week to collect your baseline unlock speed.
+	</string>
+	<string name="welcomeText">
+	    You\'re all set! Twitch will appear when you turn the screen off and back on. We recommend removing existing locks from your unlock screen to avoid a double unlock.
+	</string>
+	<string name="goToPreferencesButtonText">
+	    Open security settings
+	</string>
+	<string name="skipSecuritySetupButtonText">
+	    Skip and finish installation
+	</string>
+	<string name="contactUsText">
+	    Please enter your email address. It is for contact purposes only, and will not be connected to your data.
+	</string>
+	<string name="setTwitch">
+	    Set Twitch as your default home launcher by pressing the button below, selecting Twitch, and pressing \'Always.\'
+	</string>
+	<string name="homeLauncherButtonUnresponsive">
+	    If the button is unresponsive, Twitch is already your home launcher and you may skip this step.
+	</string>
+	
+	<string name="STW_explanation1">
+	    This microtask asks you to validate the output of a computer program that splits sentences into factual relationships. Here are a few sample extractions, starting with a good one (scroll down to see all):
+	</string>
+	<string name="STW_explanation2">
+	    An extraction is invalid if the program chooses the wrong subject or relationship, as shown below:
+	</string>
+	<string name="STW_explanation3">
+	    An extraction can also be invalid if it lacks important surrounding context:
+	</string>
+	
+</resources>

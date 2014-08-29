@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<com.twitch.homescreenlock.CustomDigitalClock
+        android:id="@+id/customDigitalClock1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DigitalClock"
+        android:textSize="40dp" />
+	
+    <TextView
+        android:id="@+id/stats_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Current Stats: People around"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="10dp" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+	        <LinearLayout 
+		            android:layout_height="match_parent"
+		            android:layout_width="0dp"
+		            android:layout_weight="0.5"
+		            android:gravity="right" >
+		        <ImageView
+		            android:id="@+id/imageButtonOne"
+		            android:layout_width="60dp"
+		            android:layout_height="60dp"
+		            android:layout_marginRight="10dp"
+		            android:src="@drawable/oneperson" />
+	        	</LinearLayout>
+	        <LinearLayout 
+	            android:layout_height="match_parent"
+	            android:layout_width="0dp"
+	            android:layout_weight="0.5">
+		        <TextView
+		            android:id="@+id/percentage1"
+		            android:layout_width="110dp"
+		            android:layout_height="fill_parent"
+		            android:text="33%"
+		            android:gravity="center_vertical"
+		            android:textSize="42sp"
+		            android:textAppearance="?android:attr/textAppearanceLarge" />
+	        </LinearLayout>
+        
+        </LinearLayout>
+        
+        <View
+		    android:layout_width="20dp"
+		    android:layout_height="5dp" />
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        	<LinearLayout 
+	            android:layout_height="match_parent"
+	            android:layout_width="0dp"
+	            android:layout_weight="0.5"
+	            android:gravity="right" >
+		        <ImageView
+		            android:id="@+id/imageButtonMoreThanOne"
+		            android:layout_width="60dp"
+		            android:layout_height="60dp"
+		            android:layout_marginRight="10dp"
+		            android:src="@drawable/morethanone" />
+		        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_height="match_parent"
+	            android:layout_width="0dp"
+	            android:layout_weight="0.5">
+		        <TextView
+		            android:id="@+id/percentage2"
+		            android:layout_width="110dp"
+		            android:layout_height="fill_parent"
+		            android:text="30%"
+		            android:gravity="center_vertical"
+		            android:textSize="42sp"
+		            android:textAppearance="?android:attr/textAppearanceLarge" />
+	        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+
+    
+    <View
+	    android:layout_width="20dp"
+	    android:layout_height="5dp" />
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+		
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+	        <LinearLayout 
+	            android:layout_height="match_parent"
+	            android:layout_width="0dp"
+	            android:layout_weight="0.5"
+	            android:gravity="right" >
+		        <ImageView
+		            android:id="@+id/imageButtonGroup"
+		            android:layout_width="60dp"
+		            android:layout_height="60dp"
+		            android:layout_marginRight="10dp"
+		            android:src="@drawable/group" />
+		    </LinearLayout>
+	        <LinearLayout 
+	            android:layout_height="match_parent"
+	            android:layout_width="0dp"
+	            android:layout_weight="0.5">
+		        <TextView
+		            android:id="@+id/percentage3"
+		            android:layout_width="110dp"
+		            android:layout_height="fill_parent"
+		            android:text="20%"
+		            android:gravity="center_vertical"
+		            android:textSize="42sp"
+		            android:textAppearance="?android:attr/textAppearanceLarge" />
+	        </LinearLayout>
+        
+        </LinearLayout>
+        
+        <View
+		    android:layout_width="20dp"
+		    android:layout_height="5dp" />
+        
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+	        <LinearLayout 
+	            android:layout_height="match_parent"
+	            android:layout_width="0dp"
+	            android:layout_weight="0.5"
+	            android:gravity="right" >
+		        <ImageView
+		            android:id="@+id/imageButtonCrowd"
+		            android:layout_width="60dp"
+		            android:layout_height="60dp"
+		            android:layout_marginRight="10dp"
+		            android:src="@drawable/crowd" />
+	        </LinearLayout>
+	        <LinearLayout 
+	            android:layout_height="match_parent"
+	            android:layout_width="0dp"
+	            android:layout_weight="0.5">
+		        <TextView
+		            android:id="@+id/percentage4"
+		            android:layout_width="110dp"
+		            android:layout_height="fill_parent"
+		            android:text="17%"
+		            android:gravity="center_vertical"
+		            android:textSize="42sp"
+		            android:textAppearance="?android:attr/textAppearanceLarge" />
+	        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/stats_location_layout"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/stats_time_bucket"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Weekday nights"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+        <TextView 
+            android:id="@+id/stats_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Near Palo Alto, CA"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/stats_buttons_layout"
+        android:layout_marginTop="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/stats_button_moreStats"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="See More"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Button
+            android:id="@+id/stats_done_button"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Done"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+    
+        <!-- 
+    <LinearLayout
+        android:id="@+id/percentagesRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+                    android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/percentage1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="33%"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <View
+		    android:layout_width="20dp"
+		    android:layout_height="fill_parent" />
+        
+        <TextView
+            android:id="@+id/percentage2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="30%"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+     -->
+    
+</LinearLayout>

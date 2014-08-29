@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewSpace1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+             <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textToast"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"                
+                android:textColor="#FFF"                
+                android:textSize="60dp" />
+
+            <TextView
+                android:id="@+id/textToastPercentOf"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"                
+                android:textColor="#FFF"
+                android:textSize="15dp" />
+
+            </LinearLayout>
+			<TextView
+            android:id="@+id/textViewSpaceBetween"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+            <ImageView
+                android:id="@+id/imageToast"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewSpace2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textToastLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"            
+            android:textColor="#FFF"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

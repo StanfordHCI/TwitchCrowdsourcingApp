@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<ListPreference
+    android:title="Lock Screen Selector"
+    android:key="keyOfLocksForPrefs"
+    android:summary="Please touch here to choose the lockscreen of your preference."
+    android:entries="@array/listOfLocksForPrefs"
+    android:entryValues="@array/valueListOfLocksForPrefs">
+</ListPreference>
+    
+    
+</PreferenceScreen>
