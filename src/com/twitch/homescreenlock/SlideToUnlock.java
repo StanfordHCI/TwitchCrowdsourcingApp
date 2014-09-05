@@ -83,7 +83,7 @@ public class SlideToUnlock extends TwitchMicrotaskActivity implements OnSeekBarC
 		}
 
 		try {
-			long laterStartTime = getLatestStartTime(endTime, "SlideToUnlock");
+			long laterStartTime = getLaterStartTime(endTime, "SlideToUnlock");
 			
 			if(TwitchUtils.isOnline(this)) {
 				HashMap<String, String> params = new HashMap<String, String>();

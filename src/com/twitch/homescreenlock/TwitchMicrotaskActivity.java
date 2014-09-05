@@ -53,7 +53,7 @@ public class TwitchMicrotaskActivity extends Activity implements LocationListene
 		finish();
 	}
 	
-	protected long getLatestStartTime(long endTime, String activityName) {
+	protected long getLaterStartTime(long endTime, String activityName) {
 		long durationViaFocus = endTime - startTime;
 		long durationViaScreenOn = endTime - LockScreenBroadcast.startTime;
 		Log.d("DurationFor" + activityName, durationViaFocus + " ms via focus, " + durationViaScreenOn + " ms via screen on event");
