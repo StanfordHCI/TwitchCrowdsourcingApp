@@ -1,6 +1,7 @@
 # Built application files
 *.apk
 *.ap_
+!HomeScreenLock.apk
 
 # Files for the Dalvik VM
 *.dex
