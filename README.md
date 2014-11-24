@@ -1,4 +1,4 @@
-Twitch Crowdsourcing
+[Twitch Crowdsourcing](http://stanfordhci.github.io/twitchcrowdsourcing/)
 ====================
 
 [CHI 2014 paper](http://hci.stanford.edu/publications/2014/Twitch/chi14-twitch.pdf)
